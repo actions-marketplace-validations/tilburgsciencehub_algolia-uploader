@@ -5,7 +5,7 @@
 
 Algolia Uploader enables you to update your Algolia index file automatically.
 
-The uploader is largely based on [wangchucheng/algolia-uploader](https://github.com/wangchucheng/algolia-uploader), with the main difference being that we use the `index.replace_all_objects` method instead of `index.save_objects`. See the [Algolia documentation](https://www.algolia.com/doc/api-reference/api-methods/replace-all-objects/?client=python) for more information.
+The uploader is largely based on [wangchucheng/algolia-uploader](https://github.com/wangchucheng/algolia-uploader), with the main difference being that we use the `index.replace_all_objects` method instead of `index.save_objects`. Therefore it clears all objects from the index and replaces them with a new set of objects. See the [Algolia documentation](https://www.algolia.com/doc/api-reference/api-methods/replace-all-objects/?client=python) for more information.
 
 ## Try Algolia Uploader
 
