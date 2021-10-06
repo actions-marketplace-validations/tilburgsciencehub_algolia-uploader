@@ -1,5 +1,5 @@
-name: 'Algolia Uploader'
-description: 'Upload your algolia uploader.'
+name: 'Algolia Index Updater'
+description: 'Update your Algolia index automatically.'
 
 branding:
   icon: upload-cloud
