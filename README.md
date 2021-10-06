@@ -21,7 +21,7 @@ on:
 jobs:
   upload_algolia_index:
     runs-on: ubuntu-latest
-    name: Upload Algolia Index
+    name: Update Algolia Index
     steps:
     - uses: actions/checkout@v2
       with:
