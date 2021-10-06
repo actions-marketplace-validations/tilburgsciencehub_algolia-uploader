@@ -1,8 +1,5 @@
 # Algolia Index Updater
 
-![build](https://github.com/wangchucheng/algolia-uploader/workflows/build/badge.svg)
-![license](https://img.shields.io/github/license/wangchucheng/algolia-uploader)
-
 Algolia Index Updater enables you to update your Algolia index file automatically.
 
 The updater is largely based on [wangchucheng/algolia-uploader](https://github.com/wangchucheng/algolia-uploader), with the main difference being that we use the `index.replace_all_objects` method instead of `index.save_objects`. Therefore it clears all objects from the index and replaces them with a new set of objects. See the [Algolia documentation](https://www.algolia.com/doc/api-reference/api-methods/replace-all-objects/?client=python) for more information.
