@@ -9,4 +9,4 @@ path = "{}/{}".format(os.environ.get("GITHUB_WORKSPACE"), os.environ.get("INPUT_
 
 with open(path) as f:
     records = json.load(f)
-    index.save_objects(records,  {'autoGenerateObjectIDIfNotExist': True})
+    index.replace_all_objects(records,  {'autoGenerateObjectIDIfNotExist': True})
