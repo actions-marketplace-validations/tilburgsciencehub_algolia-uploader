@@ -29,7 +29,7 @@ jobs:
     - uses: tilburgsciencehub/algolia-uploader@master
       with:
         # Algolia app id
-        app_id: 02IYLG4AP9
+        app_id: <yourID>
         # Secret token in the organization's 'Setting > Secrets'
         admin_key: ${{ secrets.ALGOLIA_ADMIN_KEY }}
         # The index name
